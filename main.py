@@ -12,9 +12,9 @@ try:
   
 #!/usr/bin/python
     ye = input("Subscribed to me? (y/n): ")
-    if ye == "y":
+    ye == "y":
        subprocess.call("python main.py",shell=True)
-    if ye == "n":
+    ye == "n":
          print ("Subscribe to me because i really spent much time on it :D )")
          time.sleep(1)
          os.system("exit")#!/usr/bin/python
