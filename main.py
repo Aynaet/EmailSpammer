@@ -12,7 +12,7 @@ try:
   
     
     
-    print "             Gmail-Spammer | Aynaet-Git              "
+    print("             Gmail-Spammer | Aynaet-Git              ")
 
     server = raw_input ('You using: ')
 
