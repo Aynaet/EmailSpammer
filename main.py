@@ -16,25 +16,25 @@ try:
 
     server = raw_input ('Mail-Server Gmail/Yahoo/Gmx/Outlook: ')
 
-    if server == 'gmail' or server == 'Gmail':
+    if server == 'gmail' or server == 'Gmail' :
 
         smtp_server = 'smtp.gmail.com'
         port = 587
         set_server = "gmail"
 
-   if server == 'yahoo' or server == 'Yahoo':
+   if server == 'yahoo' or server == 'Yahoo' :
 
         smtp_server = 'smtp.mail.yahoo.com'
         port = 25
         set_server = "yahoo"
         
-   if server == 'gmx' or server == 'Gmx':
+   if server == 'gmx' or server == 'Gmx' :
     
         smtp_server = 'smtp.mail.gmx.net'
         port: 587
         set_server = "gmx"
         
-   if server == 'outlook' or server == 'Outlook':
+   if server == 'outlook' or server == 'Outlook' :
     
         smtp_server = 'smtp.office365.com'
         port: 587
