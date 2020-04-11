@@ -7,8 +7,24 @@ try:
     R = '\033[31m' #Red
     G = '\033[32m' #Green
 
-
+      ___
+     / _ \ 
+    |  __/ 
+    |\___|
+    
+    
+    
+    
+    
     os.system("clear")
+    
+   echo $mer"                       ___        _ __ ___   __ _      (_) | | "
+   echo $mer"                      / _ \            | '_ ` _ \ / _` | | | | "
+   echo $mer"                     |  __/            | | | | | | (_| | | | | "
+   echo $mer"                      \___|            |_| |_| |_|\__,_|_|_|_| "
+    
+    
+    echo $mer"               Email-Spammer | Aynaet:Git              "
 
     server = raw_input ('Mail-Server Gmail/Yahoo: ')
 
@@ -29,12 +45,12 @@ try:
         print(R + "Error - This script only works on Gmail or Yahoo." + W)
         sys.exit()
 
-    email_user = raw_input('Email: ')
+    email_user = raw_input('Your Mail: ')
     passwd     = getpass.getpass('Password: ')
-    email_to   = raw_input('\nTo: ')
+    email_to   = raw_input('\nTarget: ')
     subject    = raw_input('Subject: ')
     body       = raw_input('Message: ')
-    total      = input('Amount of Sendings: ')
+    total      = input('Amount of Sendings (Max 90): ')
 
     try:
 
