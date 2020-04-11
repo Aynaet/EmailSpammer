@@ -12,7 +12,7 @@ try:
   
     
     
-    print (G +              Email-Spammer | Aynaet-Git              )
+    print (G +              Spammer | Aynaet-Git              )
 
     server = raw_input ('You using: ')
 
