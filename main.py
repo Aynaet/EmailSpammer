@@ -10,20 +10,11 @@ try:
     
     os.system("clear")
   
-#!/usr/bin/python
-    ye = input("Subscribed to me? (y/n): ")
-    ye == "y":
-       subprocess.call("python main.py",shell=True)
-    ye == "n":
-         print ("Subscribe to me because i really spent much time on it :D )")
-         time.sleep(1)
-         os.system("exit")#!/usr/bin/python
-
     
     
     print (G +              Email-Spammer | Aynaet-Git              )
 
-    server = raw_input ('Mail-Server Gmail/Yahoo: ')
+    server = raw_input ('Mail-Server Gmail/Yahoo/Gmx/Outlook: ')
 
     if server == 'gmail' or server == 'Gmail':
 
@@ -31,12 +22,24 @@ try:
         port = 587
         set_server = "gmail"
 
-    if server == 'yahoo' or server == 'Yahoo':
+   if server == 'yahoo' or server == 'Yahoo':
 
         smtp_server = 'smtp.mail.yahoo.com'
         port = 25
         set_server = "yahoo"
-
+        
+   if server == 'gmx' or server == 'Gmx':
+    
+        smtp_server = 'smtp.mail.gmx.net'
+        port: 587
+        set_server = "gmx"
+        
+   if server == 'outlook' or server == 'Outlook':
+    
+        smtp_server = 'smtp.office365.com'
+        port: 587
+        set_server = "outlook"
+        
     else:
 
         print(R + "Error - This script only works on Gmail or Yahoo." + W)
@@ -47,7 +50,7 @@ try:
     email_to   = raw_input('\nTarget: ')
     subject    = raw_input('Subject: ')
     body       = raw_input('Message: ')
-    total      = input('Amount of Sendings (Max 90): ')
+    total      = input('Amount of Sendings max 90: ')
 
     try:
 
