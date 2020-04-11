@@ -12,7 +12,7 @@ try:
   
     
     
-    echo $mer" G+              Email-Spammer | Aynaet:Git              "
+    print" G+              Email-Spammer | Aynaet:Git              "
 
     server = raw_input ('Mail-Server Gmail/Yahoo: ')
 
