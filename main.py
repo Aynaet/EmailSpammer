@@ -11,11 +11,6 @@ try:
     os.system("clear")
   
 #!/usr/bin/python
-import os
-import sys
-import time
-from time import sleep as out
-import subprocess
 def bersih():
     os.system("clear")
 def kembali():
