@@ -11,13 +11,10 @@ try:
     os.system("clear")
   
 #!/usr/bin/python
-def bersih():
-    os.system("clear")
-def kembali():
     ye = input("Subscribed to me? (y/n): ")
     if ye == "y":
        subprocess.call("python main.py",shell=True)
-    elif ye == "n":
+    if ye == "n":
          print ("Subscribe to me because i really spent much time on it :D )")
          time.sleep(1)
          os.system("exit")#!/usr/bin/python
@@ -34,7 +31,7 @@ def kembali():
         port = 587
         set_server = "gmail"
 
-    elif server == 'yahoo' or server == 'Yahoo':
+    if server == 'yahoo' or server == 'Yahoo':
 
         smtp_server = 'smtp.mail.yahoo.com'
         port = 25
