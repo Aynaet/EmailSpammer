@@ -10,14 +10,9 @@ try:
     
     os.system("clear")
   
-
-   echo $mer"                       ___                _ __ ___   __ _(_) | | "
-   echo $mer"                      / _ \  __________  | '_ ` _ \ / _` | | | | "
-   echo $mer"                     |  __/ |__________| | | | | | | (_| | | | | "
-   echo $mer"                      \___|              |_| |_| |_|\__,_|_|_|_| "
     
     
-    echo $mer"               Email-Spammer | Aynaet:Git              "
+    echo $mer" G+              Email-Spammer | Aynaet:Git              "
 
     server = raw_input ('Mail-Server Gmail/Yahoo: ')
 
