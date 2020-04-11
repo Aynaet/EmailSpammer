@@ -10,9 +10,26 @@ try:
     
     os.system("clear")
   
+#!/usr/bin/python
+import os
+import sys
+import time
+from time import sleep as out
+import subprocess
+def bersih():
+    os.system("clear")
+def kembali():
+    ye = input("Subscribed to me? (y/n): ")
+    if ye == "y":
+       subprocess.call("python main.py",shell=True)
+    elif ye == "n":
+         print ("Subscribe to me because i really spent much time on it :D )")
+         time.sleep(1)
+         os.system("exit")#!/usr/bin/python
+
     
     
-    print" G+              Email-Spammer | Aynaet:Git              "
+    print (G +              Email-Spammer | Aynaet:Git              )
 
     server = raw_input ('Mail-Server Gmail/Yahoo: ')
 
